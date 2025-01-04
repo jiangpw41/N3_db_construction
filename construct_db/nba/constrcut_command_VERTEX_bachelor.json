@@ -1,0 +1,3 @@
+[
+    "INSERT VERTEX IF NOT EXISTS bachelor(name, speciality) VALUES\n\"Tim Duncan\": (\"Tim Duncan\", \"psychology\");"
+]

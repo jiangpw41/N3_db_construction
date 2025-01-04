@@ -1,0 +1,10 @@
+[
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"普克奇学院\": (\"普克奇学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"雷鸟学院\": (\"雷鸟学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"猫豹学院\": (\"猫豹学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"长角水蛇学院\": (\"长角水蛇学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"斯莱特林学院\": (\"斯莱特林学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"格兰芬多学院\": (\"格兰芬多学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"拉文克劳学院\": (\"拉文克劳学院\");",
+    "INSERT VERTEX IF NOT EXISTS college(name) VALUES\n\"赫奇帕奇学院\": (\"赫奇帕奇学院\");"
+]
