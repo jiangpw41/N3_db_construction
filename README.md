@@ -2,12 +2,13 @@
 本项目是对EMNLP 2024论文R3-NL2GQL（[R3-NL2GQL: A Model Coordination and Knowledge Graph Alignment Approach for NL2GQL](https://aclanthology.org/2024.findings-emnlp.800/)）中数据的清理，并将其还原为Nebula3数据库，便于执行查询。
 
 本项目依赖
-'''bash
+
+```bash
 pip install wayne_utils
 pip install nebula3-python
 pip install numpy
 pip install pandas
-'''
+```
 使用前，请修改config.py文件中配置。
 
 # 细节
@@ -20,3 +21,5 @@ pip install pandas
   - **最后**，将原数据dataset/disease/data目录下entity和rel两个子文件夹中的csv文件全部放到dataset/disease/data目录，便于批量加载。此时该文件夹与本项目dataset文件夹内容一致。此外，三个数据集的VID以及实体关系名称可以在edge_vertex.json文件中查询。
 - 本项目从原项目给出的三个ngql文件中提取了可以直接执行的Space构建语句。
 - 本项目从三个子数据集（nba, disease, harrypotter）的csv文件构建了可以直接执行的数据库实例的构造语句（construct_db目录下）。
+
+本项目提供修正好的数据集文件夹和生成好的执行语句（construct_db），也可以自行从原数据所在仓库下载并按照上述细节修改，修改后运行db_construct.py文件。
